@@ -1,4 +1,62 @@
 .skills {
-    height: 100vh;
-    background-color: grey ;
+    height: 100%;
+    background-color: green;
+    justify-content: center;
+    display: flex;
 }
+
+.container {
+    width: 80%;
+    border: 1px solid;
+}
+
+.skillsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.skill {
+    width: 300px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+}
+
+.description {
+    /*height: 100%;*/
+    background-color:  wheat;
+}
+
+@media screen and (max-width: 1128px) {
+    .skillsWrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1128px) {
+    .skill {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .skill {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
