@@ -45,4 +45,3 @@ function App () {
 export default App;
 
 
-    // c 7-50 минуты смотрим
