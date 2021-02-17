@@ -29,7 +29,7 @@ function App () {
 
             <Contacts/>
 
-            <Footer/>
+            <Footer />
 
 
 
