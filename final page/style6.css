@@ -1,0 +1,1070 @@
+/* .row {
+    background-color: aqua;
+} */
+
+
+#header {
+    width: 100%;
+    text-align: center;
+    background-color: #C7E1FA;
+
+}
+
+
+.header-logo {
+    margin: 10px;
+
+
+}
+
+.header-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+#menu {
+    color: #000000;
+    display: inline-block;
+    top: 0;
+
+    width: 100%;
+}
+
+
+
+
+
+ nav {
+
+    margin: 0 auto;
+    display: inline-block;
+
+    height: 50px;
+}
+
+
+
+
+
+nav li a {
+    font-family: 'Montserrat',sans-serif;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 2;
+    margin: 40px 10px;
+    display: inline-block;
+}
+
+nav ul li{text-align: justify !important;
+     overflow:hidden; /* for IE6 */}
+
+
+nav li a:hover {
+    color: green;
+    padding-top: 0px;
+    text-decoration: none;
+    margin: 40px 10px;
+}
+
+
+
+.dropdown {
+    margin: 40px 10px;
+}
+
+
+
+.center {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 40px 70px 20px 10px;
+    background-size: 100%;
+
+}
+
+
+
+
+
+.container {
+    max-width: 1170px;
+
+    margin: 0 auto;
+
+}
+
+.perfom {
+    margin-top: 50px;
+    background: url(img/high-voltage-transmission-tower-png-picture-png-arts-electric-tower-png-600_425.png) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: auto;
+}
+
+.perfom H2{
+    font-size: 30px;
+    color: #823E0B;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+
+}
+
+.l {
+    background-color: #595959;
+    height: 4px;
+    width: 16.2%;
+    margin-bottom: 50px;
+    margin-left: 32%;
+    margin-right: auto;
+}
+
+#carouselExampleCaptions {
+    margin-top: -20px;
+}
+
+.carousel-item {
+    height: 300px;
+
+}
+
+
+.menu_burger {
+        display: none;
+
+    }
+
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+
+    #header {
+
+position: fixed;
+
+
+}
+
+   #header:before {
+       content: "";
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+
+}
+
+    .header_body {
+        position: relative;
+        z-index: 2;
+        display: flex;
+    }
+
+    .menu_burger {
+        display: block;
+        position: fixed;
+        width: 50px;
+        height: 20px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .menu_burger span {
+        position: absolute;
+        background-color: #000000;
+
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+
+    .menu_burger:before,
+    .menu_burger:after {
+        content: '';
+        background-color: #000000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        right: auto;
+
+    }
+
+    .menu_burger:before {
+        top: 0;
+    }
+
+    .menu_burger:after {
+        bottom: 0;
+
+
+}
+
+    .menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .menu_burger.active: before {
+
+    }
+
+    .menu.active {
+        top: 0;
+    }
+
+
+
+    nav {
+
+    margin: 0 auto;
+    display: inline-block;
+
+    height: 50px;
+   }
+
+.boxr1 {
+    font-size: 45px;
+    color: #FFFFFF;
+
+}
+
+.boxr2 {
+    font-size: 55px;
+    color: #FFFFFF;
+
+}
+
+.boxr3 {
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+.boxr4 {
+     margin-bottom: 0px;
+}
+
+.boxr5 {
+     margin-bottom: 35px;
+}
+
+.boxr6{
+     margin-bottom: 35px;
+}
+}
+
+
+#content {
+    margin-top: 0px;
+    height: 530px;
+    width: auto;
+    background: url(img/0.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.overlay {
+    background: rgba(130, 62, 11, 0.671);
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+
+#content H1 {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin-top: 1200px;
+}
+
+
+#content text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+
+@media (max-width: 1024px) {
+
+    #header {
+    width: 100%;
+    text-align: center;
+    background-color: #C7E1FA;
+}
+
+    nav {
+
+    margin: 0 auto;
+    display: inline-block;
+
+    height: 50px;
+   }
+
+    #content {
+    background: url(img/1024.jpg) center center no-repeat;
+    height: 300px;
+    }
+
+    #content H1 {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin-top: 300px;
+}
+
+    .overlay {
+    background: rgba(130, 62, 11, 0.671);
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+    #carouselExampleCaptions {
+    margin-top: -0px;
+}
+
+   .boxr5 {
+     margin-bottom: 15px;
+}
+    .boxr6 {
+     margin-bottom: 35px;
+}
+
+    .l {
+    background-color: #595959;
+    height: 4px;
+    width: 20.5%;
+    margin-bottom: 50px;
+    margin-left: 27%;
+    margin-right: auto;
+}
+
+}
+
+
+@media (max-width: 800px) {
+
+    #header {
+    width: 100%;
+    text-align: left;
+}
+
+    #menu {
+    width: 100%;
+}
+    nav {
+    width: 100%;
+    padding-left: 0px;
+    display: inline-block;
+    height: 50px;
+}
+
+nav li a {
+    font-size: 20px;
+    font-weight: 600;
+   }
+
+nav ul li{text-align: justify !important;
+     overflow:hidden; /* for IE6 */}
+
+    #content {
+    background: url(img/0.1.jpg) center center no-repeat;
+        height: 400px;
+    }
+
+    #content H1 {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin-top: 200px;
+    }
+
+    .box img {
+
+    width: 100%;
+
+}
+
+    .overlay {
+    background: rgba(130, 62, 11, 0.671);
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#carouselExampleCaptions {
+    margin-top: 70px;
+}
+
+    .boxr H1 {
+    text-align: center;
+        padding-top: 5%;
+
+}
+    .boxr1 {
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.boxr2 {
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+
+.boxr3 {
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+   .boxr4 {
+     margin-bottom: 30px;
+}
+    .boxr5 {
+     margin-bottom: 60px;
+}
+    .boxr6 {
+     margin-bottom: 60px;
+}
+
+
+
+
+.compet-text {
+    margin: 10px;
+}
+
+
+.compet-text H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  }
+
+
+.l {
+    background-color: #595959;
+    height: 4px;
+    width: 27%;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+}
+
+
+@media (max-width: 767px) {
+
+   #content {
+
+    background: url(img/0.2.jpg) center center no-repeat;
+    }
+
+
+
+    .overlay {
+    background: rgba(130, 62, 11, 0.671);
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+
+
+
+    .boxr H1 {
+
+     text-align: center;
+     padding-top: 0px;
+
+}
+    .boxr1 {
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.boxr2 {
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+
+.boxr3 {
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+
+  .l {
+    background-color: #595959;
+    height: 4px;
+    width: 28%;
+    margin-bottom: 50px;
+    margin-left: 19%;
+    margin-right: auto;
+}
+
+
+.compet-text1 H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.compet2 {
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.compet-text2 H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+}
+
+
+
+
+
+
+#content p {
+    font-size: 18px;
+    color: #000000;
+}
+
+#content ul {
+    margin-top: auto;
+}
+
+#content ul {
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+#content li {
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.text {
+    margin-top: 40px;
+    text-align: left;
+}
+.text H1 {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+p {font-size: 18px;
+    color: #000000;
+    padding-left: 25px;
+    padding-right: 20px;
+    line-height: 2;
+    text-indent: 30px;
+}
+
+
+
+
+.compet {
+    height: 200px;
+    width: 100%;
+
+}
+
+.compet img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.compet1 {
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.compet1 img {
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+}
+
+.compet2 {
+    height: 200px;
+    width: 100%;
+
+    margin-left: auto;
+     margin-right: auto;
+
+}
+
+.compet2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+
+.compet-text {
+    margin: 10px;
+}
+
+
+.compet-text H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+
+
+#footer {
+    background-color: #595959;
+    padding: 10px 0;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.text footer {
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+
+}
+
+
+#footer p {
+  font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 767px) {
+
+
+    #header {
+    width: 100%;
+    text-align: left;
+}
+
+    #menu {
+    width: 100%;
+}
+
+
+
+
+    nav {
+        display: inline-block;
+        width: 100%;
+         height: auto;
+        margin: 0 10px;
+
+    }
+
+    nav li a {
+    font-size: 20px;
+    font-weight: 600;
+   }
+
+    nav li a:hover {
+    color: green;
+    background: white;
+    padding-top: 0px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+    #content {
+
+    height: 300px;
+    width: auto;
+
+    }
+
+
+    .overlay {
+    background: rgba(130, 62, 11, 0.671);
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+    #carouselExampleCaptions {
+    margin-top: 0px;
+}
+
+    #content H1 {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+    .compet-text H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+}
+
+
+@media (max-width: 600px) {
+
+.l {
+    background-color: #595959;
+    height: 4px;
+    width: 38.5%;
+    margin-bottom: 50px;
+    margin-left: 7%;
+    margin-right: auto;
+}
+
+}
+
+
+@media (max-width: 500px) {
+
+
+
+
+    #content {
+    margin-top: 0px;
+    background: url(img/0.3.jpg) center center no-repeat;
+    height: 300px;
+    }
+
+    #content H1 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .overlay {
+    background: rgba(117, 190, 218, 0.0);
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+}
+
+    #carouselExampleCaptions {
+    margin-top: -130px;
+}
+
+    .boxr4 {
+     margin-bottom: 0px;
+}
+    .boxr5 {
+     margin-bottom: 40px;
+}
+
+    .boxr6 {
+     margin-bottom: 40px;
+}
+
+   .compet {
+    height: 230px;
+    width: 100%;
+
+}
+
+    .l {
+    background-color: #595959;
+    height: 4px;
+    width: 43%;
+    margin-bottom: 50px;
+    margin-left: 2.5%;
+    margin-right: auto;
+}
+
+}
+
+@media (max-width: 420px) {
+
+.l {
+    background-color: #595959;
+    height: 4px;
+    width: 49%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+
+@media (max-width: 400px) {
+
+.boxr4 {
+     margin-bottom: 15px;
+}
+    .boxr5 {
+     margin-bottom: 40px;
+}
+
+    .boxr6 {
+     margin-bottom: 45px;
+}
+    .l {
+    background-color: #595959;
+    height: 4px;
+    width: 56%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+@media (max-width: 380px) {
+
+.boxr4 {
+     margin-bottom: 15px;
+}
+    .boxr5 {
+     margin-bottom: 20px;
+}
+
+    .boxr6 {
+     margin-bottom: 45px;
+}
+
+    .l {
+    background-color: #595959;
+    height: 4px;
+    width: 58%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media (max-width: 370px) {
+
+.boxr4 {
+     margin-bottom: 15px;
+}
+    .boxr5 {
+     margin-bottom: 10px;
+}
+
+    .boxr6 {
+     margin-bottom: 45px;
+}
+}
+
+
+@media (max-width: 320px) {
+
+    #content {
+    margin-top: 0px;
+    background: url(img/0.4.jpg) center center no-repeat;
+    float: center;
+    height: 220px;
+    }
+
+    #content H1 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+    #carouselExampleCaptions {
+    margin-top: -70px;
+}
+    .boxr3 {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+    .overlay {
+    background: rgba(117, 190, 218, 0.0);
+    margin-top: 0px;
+    width: 100%;
+    height: 220px;
+
+
+
+
+}
+
+.boxr4 {
+     margin-bottom: 35px;
+}
+    .boxr5 {
+     margin-bottom: 20px;
+}
+
+    .boxr6 {
+     margin-bottom: 65px;
+}
+
+.l {
+    background-color: #595959;
+    height: 4px;
+    width: 68%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}
+
+@media (max-width: 768px) {
+
+.compet-text1 H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.compet2 {
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.compet-text2 H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  display: block;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+}
+
+
+
+@media (min-width: 1000px) {
+.compet1 {
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.compet1 img {
+    display: block;
+margin-left: 60%;
+  margin-right: 10%;
+}
+
+ .compet-text1 H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  display: block;
+    margin-left: 48%;
+  margin-right: 10%;
+
+}
+
+.compet2 {
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.compet2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: 60%;
+    padding-left: 0px;
+}
+
+    .compet-text2 H3 {
+  font-size: 30px;
+  text-align: center;
+  color: #595959;
+  display: block;
+    margin-right: 40%;
+    padding-left: 0px;
+
+}
+
+}
