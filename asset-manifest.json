@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.ea7dc98f.chunk.css",
-    "main.js": "/port/static/js/main.dd6bc0c5.chunk.js",
-    "main.js.map": "/port/static/js/main.dd6bc0c5.chunk.js.map",
-    "runtime-main.js": "/port/static/js/runtime-main.3e126c41.js",
-    "runtime-main.js.map": "/port/static/js/runtime-main.3e126c41.js.map",
-    "static/js/2.ee7a69cf.chunk.js": "/port/static/js/2.ee7a69cf.chunk.js",
-    "static/js/2.ee7a69cf.chunk.js.map": "/port/static/js/2.ee7a69cf.chunk.js.map",
-    "index.html": "/port/index.html",
-    "precache-manifest.ff19a8f92d4599cff38e50007b56405e.js": "/port/precache-manifest.ff19a8f92d4599cff38e50007b56405e.js",
-    "service-worker.js": "/port/service-worker.js",
-    "static/css/main.ea7dc98f.chunk.css.map": "/port/static/css/main.ea7dc98f.chunk.css.map",
-    "static/js/2.ee7a69cf.chunk.js.LICENSE": "/port/static/js/2.ee7a69cf.chunk.js.LICENSE",
-    "static/media/photos.jpeg": "/port/static/media/photos.fffd6357.jpeg"
+    "main.css": "/Currency-exchange/static/css/main.c4eda845.chunk.css",
+    "main.js": "/Currency-exchange/static/js/main.2b32c64a.chunk.js",
+    "main.js.map": "/Currency-exchange/static/js/main.2b32c64a.chunk.js.map",
+    "runtime-main.js": "/Currency-exchange/static/js/runtime-main.135e89c7.js",
+    "runtime-main.js.map": "/Currency-exchange/static/js/runtime-main.135e89c7.js.map",
+    "static/js/2.978f2828.chunk.js": "/Currency-exchange/static/js/2.978f2828.chunk.js",
+    "static/js/2.978f2828.chunk.js.map": "/Currency-exchange/static/js/2.978f2828.chunk.js.map",
+    "static/js/3.b7733f8a.chunk.js": "/Currency-exchange/static/js/3.b7733f8a.chunk.js",
+    "static/js/3.b7733f8a.chunk.js.map": "/Currency-exchange/static/js/3.b7733f8a.chunk.js.map",
+    "index.html": "/Currency-exchange/index.html",
+    "static/css/main.c4eda845.chunk.css.map": "/Currency-exchange/static/css/main.c4eda845.chunk.css.map",
+    "static/js/2.978f2828.chunk.js.LICENSE.txt": "/Currency-exchange/static/js/2.978f2828.chunk.js.LICENSE.txt",
+    "static/media/arrowDown.d938883a.svg": "/Currency-exchange/static/media/arrowDown.d938883a.svg",
+    "static/media/arrowUp.692b2fba.svg": "/Currency-exchange/static/media/arrowUp.692b2fba.svg",
+    "static/media/coin3.8d9d4ea8.svg": "/Currency-exchange/static/media/coin3.8d9d4ea8.svg",
+    "static/media/coinsLogo.3104f664.png": "/Currency-exchange/static/media/coinsLogo.3104f664.png",
+    "static/media/gold.8a4ca331.svg": "/Currency-exchange/static/media/gold.8a4ca331.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e126c41.js",
-    "static/js/2.ee7a69cf.chunk.js",
-    "static/css/main.ea7dc98f.chunk.css",
-    "static/js/main.dd6bc0c5.chunk.js"
+    "static/js/runtime-main.135e89c7.js",
+    "static/js/2.978f2828.chunk.js",
+    "static/css/main.c4eda845.chunk.css",
+    "static/js/main.2b32c64a.chunk.js"
   ]
 }
