@@ -8,7 +8,11 @@ function Skills () {
       <div className={styles.skills}>
               <div className={styles.container}>
 
-                  <span className={styles.blockTitle}>My skills </span>
+                  <div className={styles.headerTitle}>
+                  <h2 className={styles.blockTitle}>My skills </h2>
+                  <div className={styles.line}></div>
+                  </div>
+
                   <div className={styles.skillsWrapper}>
 
                       <div className={styles.skill}>
@@ -45,4 +49,3 @@ function Skills () {
 
 export default Skills;
 
-/* 20-30*/

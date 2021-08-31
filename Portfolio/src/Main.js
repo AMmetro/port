@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./Main.module.css";
+import photos from "./photos.jpeg"
 
 function Main() {
 
@@ -11,17 +12,13 @@ function Main() {
             <div className={styles.container}>
 
                 <div className={styles.greeting}>
-
                     <span className={styles.greeting}>Привет</span>
-                    <span className={styles.greeting}>Меня зовут Андрей Мицкевич</span>
+                    <span className={styles.greeting}>Меня зовут Андрей Мицкевич!</span>
                     <span className={styles.greeting}>Я front-end разработчик</span>
-
                 </div>
 
-
-
                 <div className={styles.photo}>
-                    <img src="" alt=""/>
+                    <img style={{width: 300}} src={photos} alt="photos"/>
                 </div>
 
             </div>
