@@ -11,8 +11,7 @@ function Contacts () {
     const inputData =(event, type)=>{
         switch (type) {
             case "name":{
-                console.log("add name")
-                setData({...mailData, name: event.target.value})
+                 setData({...mailData, name: event.target.value})
             };break
             case "mail":{
                 setData({...mailData, mail: event.target.value})
