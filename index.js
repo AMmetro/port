@@ -21,7 +21,7 @@ app.use(bodyParser.json())
     // tls: {rejectUnauthorized:false},
     auth: {
     user: "a.mitskevich.metro@gmail.com", // generated ethereal user
-    pass: "put my pass here", // generated ethereal password
+    pass: "17FTruiQ2", // generated ethereal password
   },
 });
   
